@@ -17,10 +17,11 @@
     width: 30px;
     height: 30px;
     transition: fill 0.15s;
+    fill: white;
 }
 .Icon-container:hover .Icon-svg--check{
-    fill: #4caf50;
+    fill: #37c50a;
 }
 .Icon-container:hover .Icon-svg--delete {
-    fill: red;
+    fill: #a53a3a;
 }

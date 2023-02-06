@@ -1,5 +1,5 @@
 .ModalBackground {
-  padding: 5px;
+    padding: 5px;
     background: rgba(32, 35, 41, .8);
     position: fixed;
     top: -10px;
