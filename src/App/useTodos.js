@@ -47,23 +47,28 @@ function useTodos() {
         const newTodos = [...todos];
         newTodos.splice(todoIndex, 1);
         saveTodos(newTodos);
-      };   
-
-    return {
+      };  
+      
+      const states = {
       loading,
       error,
       totalTodos,
       completedTodos,
       searchValue,
-      setSearchValue,
       searchedTodos,
+      openModal,
+      }
+
+      const statesUpdate = {
+      setSearchValue,
       addTodo,
       completeTodo,
       deleteTodo,
-      openModal,
       setOpenModal,
       sincronizeTodos,
-      };
+      }
+
+    return { states, statesUpdate };
 }
 
 export { useTodos };
